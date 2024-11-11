@@ -59,3 +59,34 @@ let number1=number;
         document.getElementsByClassName('dis')[0].value = number; // Update the input box value
     }
     
+    function  add()
+    {
+        number +='+';
+        document.getElementsByClassName('dis')[0].value = number; // Update the input box value
+    }
+    
+    function  sub()
+    {
+        number +='-';
+        document.getElementsByClassName('dis')[0].value = number; // Update the input box value
+    }
+    
+
+    function  multiply()
+    {
+        number +='*';
+        document.getElementsByClassName('dis')[0].value = number; // Update the input box value
+    }
+    
+    function  division()
+    {
+        number +='/';
+        document.getElementsByClassName('dis')[0].value = number; // Update the input box value
+    }
+    function equal()
+    {
+        number= eval(number);
+        document.getElementsByClassName('dis')[0].value = number; // Update the input box value
+
+    }
+    
